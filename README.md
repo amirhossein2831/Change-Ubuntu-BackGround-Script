@@ -7,13 +7,13 @@ this script help you to change background automatically in each period of time
 for make it work after clone it first give it access:
 
 ```bash
-	chmod +x /path/to/your/script.sh
+chmod +x /path/to/your/script.sh
 ```
 
 then set a job to run it:
 
 ```bash
-	crontab -e
+crontab -e
 ```
 
 after run this command a text editor will open add this line to it  `* * * * * /bin/bash /path/to/your/script.sh` <br>
