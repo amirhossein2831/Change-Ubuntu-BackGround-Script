@@ -16,7 +16,8 @@ then set a job to run it:
 	crontab -e
 ```
 
-after run this command a text editor will open add this line to it  `* * * * * /bin/bash /path/to/your/script.sh`
+after run this command a text editor will open add this line to it  `* * * * * /bin/bash /path/to/your/script.sh` <br>
 
-and upadte the `/bin/bash` with the shell path that you use
+and upadte the `/bin/bash` with the shell path that you use <br>
 
+if you want to change the time of background change read the document of crontab
